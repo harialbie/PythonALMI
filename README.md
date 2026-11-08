@@ -103,7 +103,8 @@ version may produce slightly different values.
 ## Repository and deployment
 
 - GitHub repository: <https://github.com/harialbie/PythonALMI>
-- Streamlit Community Cloud URL: pending deployment.
+- Streamlit Community Cloud app:
+  <https://pythonalmi-mwwhgxfclk2htygbtwqwwv.streamlit.app/>
 - BITS Virtual Lab screenshot: pending. Capture the successful
   `python train_models.py` run inside the BITS Virtual Lab; no screenshot from
   another environment is used or fabricated.
