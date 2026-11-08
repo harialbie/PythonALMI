@@ -102,11 +102,11 @@ version may produce slightly different values.
 
 ## Repository and deployment
 
-- GitHub repository URL: add after creating and pushing your public repository.
-- Streamlit Community Cloud URL: add after deployment.
-- BITS Virtual Lab screenshot: insert a genuine screenshot after running
-  `python train_models.py` in the BITS Virtual Lab. No screenshot is included
-  or fabricated by this project.
+- GitHub repository: <https://github.com/harialbie/PythonALMI>
+- Streamlit Community Cloud URL: pending deployment.
+- BITS Virtual Lab screenshot: pending. Capture the successful
+  `python train_models.py` run inside the BITS Virtual Lab; no screenshot from
+  another environment is used or fabricated.
 
 Before pushing or deploying, run the training script and include the generated
 model artifacts so the app can load them. Deploy `app.py` to Streamlit Community
