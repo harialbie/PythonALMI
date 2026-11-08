@@ -1,0 +1,78 @@
+{
+  "dataset": "UCI Bank Marketing",
+  "dataset_id": 222,
+  "dataset_url": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+  "target": "subscribed",
+  "target_mapping": {
+    "no": 0,
+    "yes": 1
+  },
+  "feature_columns": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day_of_week",
+    "month",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome"
+  ],
+  "dropped_columns": [
+    "duration"
+  ],
+  "numeric_columns": [
+    "age",
+    "balance",
+    "day_of_week",
+    "campaign",
+    "pdays",
+    "previous"
+  ],
+  "categorical_columns": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome"
+  ],
+  "random_state": 42,
+  "test_size": 0.2,
+  "train_rows": 36168,
+  "test_rows": 9043,
+  "models": {
+    "logistic_regression": {
+      "name": "Logistic Regression",
+      "file": "model/logistic_regression.joblib"
+    },
+    "decision_tree": {
+      "name": "Decision Tree",
+      "file": "model/decision_tree.joblib"
+    },
+    "knn": {
+      "name": "KNN",
+      "file": "model/knn.joblib"
+    },
+    "naive_bayes": {
+      "name": "Naive Bayes",
+      "file": "model/naive_bayes.joblib"
+    },
+    "support_vector_machine": {
+      "name": "Support Vector Machine",
+      "file": "model/support_vector_machine.joblib"
+    }
+  },
+  "metrics_file": "model_metrics.csv",
+  "test_data_file": "test_data.csv",
+  "generated_at_utc": "2026-11-07T14:30:06.182625+00:00"
+}

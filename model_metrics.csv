@@ -1,0 +1,6 @@
+model_id,model,accuracy,auc,precision,recall,f1,mcc
+logistic_regression,Logistic Regression,0.893730,0.751229,0.671378,0.179584,0.283371,0.310015
+decision_tree,Decision Tree,0.830587,0.610120,0.294983,0.322306,0.308040,0.212003
+knn,KNN,0.887648,0.691511,0.556757,0.194707,0.288515,0.282595
+naive_bayes,Naive Bayes,0.846622,0.733961,0.368924,0.437618,0.400346,0.314642
+support_vector_machine,Support Vector Machine,0.893288,0.749624,0.654485,0.186200,0.289919,0.310298
