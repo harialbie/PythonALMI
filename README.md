@@ -105,9 +105,9 @@ version may produce slightly different values.
 - GitHub repository: <https://github.com/harialbie/PythonALMI>
 - Streamlit Community Cloud app:
   <https://pythonalmi-mwwhgxfclk2htygbtwqwwv.streamlit.app/>
-- BITS Virtual Lab screenshot: pending. Capture the successful
-  `python train_models.py` run inside the BITS Virtual Lab; no screenshot from
-  another environment is used or fabricated.
+- BITS Virtual Lab training run (genuine screenshot):
+
+  ![Successful model training run in the BITS Virtual Lab](screenshots/bits-virtual-lab-training.png)
 
 Before pushing or deploying, run the training script and include the generated
 model artifacts so the app can load them. Deploy `app.py` to Streamlit Community
